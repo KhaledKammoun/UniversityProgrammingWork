@@ -2,9 +2,9 @@
 #include <malloc.h>
 int main()
 {
-    int *t,n ;
+    int n ;
     scanf("%d",&n) ;
-    t=(int*)malloc(n*sizeof(int)) ;
+    int *t=(int*)malloc(n*sizeof(int)) ;
     for (int i = 0 ; i<n ; i++)
         scanf("%d",(t+i)) ;
     for (int i = 0 ; i<n ; i++)
