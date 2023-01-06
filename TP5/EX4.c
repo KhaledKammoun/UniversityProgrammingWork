@@ -4,7 +4,7 @@ int main()
 {
     int *t,n ;
     scanf("%d",&n) ;
-    t=(int*)malloc(n) ;
+    t=(int*)malloc(n*sizeof(int)) ;
     for (int i = 0 ; i<n ; i++)
         scanf("%d",(t+i)) ;
     for (int i = 0 ; i<n ; i++)
