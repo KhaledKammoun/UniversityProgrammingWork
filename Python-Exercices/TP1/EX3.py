@@ -1,4 +1,5 @@
 from random import *
+
 # n est un nombre aléatoire
 n = randint(5,20) # or : n = randrange(5,21)
 for i in range(1,n+1) :
