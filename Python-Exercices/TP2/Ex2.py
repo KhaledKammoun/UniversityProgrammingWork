@@ -9,7 +9,6 @@ for c in mot :
     else :
         b = False
         break
-
 if (b) :
     print("[{}] est composable à partir de [{}]".format(mot,mot_c))
 else :
