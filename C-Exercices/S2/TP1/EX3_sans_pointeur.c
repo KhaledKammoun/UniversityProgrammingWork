@@ -10,7 +10,7 @@ int main()
         gets(s) ;
     }while (strlen(s)<LONG) ;
     int n = strlen(s) ;
-    for (int i = 0 ; i<n ;i++){
+    for (int i=0 ; i<n ;i++){
         if (!(isalnum(s[i])))
             s[i]=' ' ;
     }
@@ -71,9 +71,9 @@ int main()
     char add_ch_2[] = "ons" ;
     char tmp_2[] ="er";
     l = 0 ;
-    i=0 ;
-    while(i<(n-strlen(tmp_2)+1)){
-        if (s[i]=='e' && s[i+1]=='r'){
+    i=1 ;
+    while(i<(n-strlen(tmp_2))+1){
+        if ( s[i-1]!=' ' && s[i]=='e' && s[i+1]=='r' && (i==(n-strlen(tmp_2)) || s[i+2]==' ')){
             l=i ;
             int k = 0 ;
             while(i-l<strlen(add_ch_2)){
