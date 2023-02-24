@@ -11,7 +11,13 @@ while True :
 liste_tuple=[(c,len(c)) for c in liste]
 print(liste_tuple)
 #question 3
-ind_mot_court = min(range(len(liste_tuple)), key=lambda i: liste_tuple[i][1])
+# ind_mot_court = min(range(len(liste_tuple)), key=lambda i: liste_tuple[i][1])
+ind_mot_court = 0
+min_len = liste_tuple[0][1]
+for i in range(1,len(liste_tuple)) :
+    if (min_len>liste_tuple[i][1]) :
+        min_len = liste_tuple[i][1]
+        ind_mot_court = i
 print(ind_mot_court,"est l'indice du mot le plus court")
 #question 4
 ch=""
