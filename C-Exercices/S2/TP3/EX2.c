@@ -40,7 +40,7 @@ void Transformer_Valeur(int (*t)[10]){
 }
 int main()
 {
-    
+    /*
     int t[10][10] = {
     {1, 0, 1, 0, 0, 0, 1, 0, 0, 1},
     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -53,13 +53,13 @@ int main()
     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
     {1, 0, 0, 0, 0, 1, 1, 1, 1, 1}
     };
-    /*
+    */
     int t[10][10] ;
     for (int i = 0 ; i<10 ; i++){
         for (int j = 0 ; j<10 ; j++)
             scanf("%d",&(t[i][j])) ;
-    }*/
-    printf("Le nombre des zéros présents dans la derniere ligne est : %d",Compter_zero_ligne(t,9)) ;
+    }
+    printf("Le nombre des zeros presents dans la derniere ligne est : %d",Compter_zero_ligne(t,9)) ;
 
     printf("\n") ;
 
