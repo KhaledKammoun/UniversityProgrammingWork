@@ -30,6 +30,5 @@ print("8 : ",s)
 print("9 : ",s.title())
 liste.sort(key=len,reverse=True)
 print("10 : ",liste)
-
 liste.sort(key=lambda x : x[1])
 print("11 : ",liste)
