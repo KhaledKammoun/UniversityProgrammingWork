@@ -1,6 +1,5 @@
-#include <iostream>
+#include <stdio.h>
 
-using namespace std;
 int Compter_zero_ligne(int t[10][10], int p){
     int zero= 0 ;
     for (int i = 0 ; i<10 ; i++){
@@ -22,39 +21,49 @@ void  Affiche_ligne (int t[10][10]) {
     }
     printf("\n") ;
 }
+void Transformer_Valeur(int (*t)[10]){
+    for (int i = 0 ; i<10 ; i++){
+        for (int j = 0 ; j<10 ; j++){
+                // Check if all neighbors are zero
+                if (t[i][j] != 0 && !((i > 0 && t[i-1][j] != 0) || 
+                    (i < 9 && t[i+1][j] != 0) ||
+                    (j > 0 && t[i][j-1] != 0) || 
+                    (j < 9 && t[i][j+1] != 0) ||
+                    (i > 0 && j > 0 && t[i-1][j-1] != 0) || 
+                    (i > 0 && j < 9 && t[i-1][j+1] != 0) ||
+                    (i < 9 && j > 0 && t[i+1][j-1] != 0) || 
+                    (i < 9 && j < 9 && t[i+1][j+1] != 0))) {
+                        t[i][j] = 0;
+                } 
+        }
+    }
+}
 int main()
 {
+    
     int t[10][10] = {
-    {0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
-    {0, 1, 1, 0, 0, 0, 0, 0, 0, 0},
+    {1, 0, 1, 0, 0, 0, 1, 0, 0, 1},
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
     {0, 1, 0, 1, 0, 1, 1, 1, 1, 0},
-    {0, 0, 0, 0, 1, 0, 1, 0, 0, 1},
+    {0, 0, 0, 0, 0, 0, 1, 0, 0, 1},
     {0, 0, 0, 1, 0, 0, 0, 0, 0, 0},
     {0, 0, 0, 1, 0, 0, 1, 1, 0, 0},
-    {0, 0, 0, 0, 0, 1, 0, 0, 1, 0},
+    {0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
     {0, 0, 0, 1, 0, 0, 1, 0, 0, 1},
-    {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
-    {0, 0, 0, 0, 0, 1, 1, 1, 1, 0}
-};/*
-    for (int i = 0 ; i<2 ; i++){
-        for (int j = 0 ; j<2 ; j++)
-            scanf("%d",&(t[i][j])) ;
-    }
-    */
-    int p ;
-    printf("Donner p : ") ;
-    scanf("%d",&p) ;
-    int nb_zero = Compter_zero_ligne(t,p) ;
-    printf("Le nombre de zero dans cette matrix est %d",nb_zero) ;
-    printf("\n") ;
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+    {1, 0, 0, 0, 0, 1, 1, 1, 1, 1}
+    };
+    /*
+    int t[10][10] ;
     for (int i = 0 ; i<10 ; i++){
         for (int j = 0 ; j<10 ; j++)
-            printf("%d ",t[i][j]) ;
-        printf("\n") ;
-    }
-    printf("Les lignes qui contient le plus grand nb de zero est ") ;
-    Affiche_ligne(t) ;
+            scanf("%d",&(t[i][j])) ;
+    }*/
+    printf("Le nombre des zéros présents dans la derniere ligne est : %d",Compter_zero_ligne(t,9)) ;
+
+    printf("\n") ;
+
+    Transformer_Valeur(t) ;
+
     return 0;
 }
-
-//rania.boujelbene@enis.tn
