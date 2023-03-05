@@ -24,7 +24,7 @@ void  Affiche_ligne (int t[10][10]) {
 void Transformer_Valeur(int (*t)[10]){
     for (int i = 0 ; i<10 ; i++){
         for (int j = 0 ; j<10 ; j++){
-                // Check if all neighbors are zero
+                // Vérifier si tous les voisins sont nuls
                 if (t[i][j] != 0 && !((i > 0 && t[i-1][j] != 0) || 
                     (i < 9 && t[i+1][j] != 0) ||
                     (j > 0 && t[i][j-1] != 0) || 
