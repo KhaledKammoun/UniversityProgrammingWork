@@ -60,9 +60,9 @@ int main()
             scanf("%d",&(t[i][j])) ;
     }
     printf("Le nombre des zeros presents dans la derniere ligne est : %d",Compter_zero_ligne(t,9)) ;
-
     printf("\n") ;
-
+    printf("lignes contenants le plus grand nombre des zeros est : ") ;
+    printf("\n") ;
     Transformer_Valeur(t) ;
 
     return 0;

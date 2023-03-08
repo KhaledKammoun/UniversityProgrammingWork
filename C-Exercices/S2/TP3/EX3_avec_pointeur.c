@@ -54,7 +54,7 @@ int main()
     printf("Le nombre des zeros presents dans la derniere ligne est : %d",Compter_zero_ligne(t,9)) ;
 
     printf("\n") ;
-    printf("lignes contenants le plus grand nombre des z�ros est : ") ;
+    printf("lignes contenants le plus grand nombre des zeros est : ") ;
     Affiche_ligne(t) ;
     printf("\n") ;
     Transformer_Valeur(t) ;
