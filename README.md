@@ -1,2 +1,2 @@
-# C | Python - Exercices
+# C | Python | HTML - Exercices
 Problem | Solution
