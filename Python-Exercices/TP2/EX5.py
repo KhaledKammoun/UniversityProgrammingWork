@@ -24,13 +24,29 @@ j=0
 while (b and j<len(liste[ind_mot_court])) :
     i = 1
     while (b and i<len(liste)) :
-        if (liste[i-1][j]!=liste[i][j]) :
+        if (liste[0][j]!=liste[i][j]) :
             b=False 
             break
         i+=1
     if (b) :
         ch+=liste[0][j]
     j+=1
+"""
+2°Méthode :
+
+w=liste[ind_mot_court]
+ch=""
+c=0
+for i in range(len(w)) :
+    for j in range(len(liste)) :
+        if (liste[j][i]==w[i]) :
+            c+=1
+    if (c==len(liste)) :
+        ch+=w[i]
+        c=0
+    else :
+        break
+"""
 if (ch) :
     print("racine =",ch)
 else :
