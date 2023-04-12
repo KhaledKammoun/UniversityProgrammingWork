@@ -3,15 +3,45 @@
 <head>
 	<title>Les tableaux</title>
 	<meta charset="utf-8">
-   
+   	<style>
+   	 caption{
+   	 	font-size: 1.5em;
+   	 	text-transform: capitalize;
+   	 }
+   	 th,td{
+   	 	padding:10px;
+   	 	text-align: center;
+   	 }
+   	 #mois{
+   	 	font-size: 2em;
+   	 	color:blue;
+   	 }
+   	 tr:nth-child(odd) td:first-child {
+	 background-color: #7E3661;
+	 color: #fff;
+	 }
+	 tr:nth-child(even) td:first-child{
+	 	background-color: #888888;
+	 	color: #fff;
+	 }
+	 tr:nth-child(even) td:last-child{
+	 	background-color: #8870FF;
+	 	color:#fff;
+	 }
+	 th[rowspan]:last-child {
+	  border-right: none;
+	  border-top: none;
+	 }
+
+   	</style>
 </head>
 <body>
-<table border="1" cellspacing="0" style="text-align:center;" width="500px">
+<table cellspacing="0" style="text-align:center;" width="500px">
 	<caption>Planning des taches par équipe</caption>
 	<thead>
 		<tr>
 			<th rowspan="2">Equipes</th>
-			<th colspan="10"> Janvier </th>
+			<th colspan="10" id="mois"> Janvier </th>
             <th rowspan="2"></th>
 		</tr>
 		<tr>
