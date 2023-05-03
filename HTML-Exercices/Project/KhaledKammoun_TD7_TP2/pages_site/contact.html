@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vieillir en forme</title>
+    <link rel="stylesheet" href="../feuille_css/style.css">
+  </head>
+  <body>
+    <header class="nav-header">
+    	<a class="link-1" href="index.html">
+		  <div class="logo">
+		    <img src="../multimedia/logo.png" alt="Logo">
+		    <h1>Vieillir en forme : astuces et conseils</h1>
+		  </div>
+		</a>
+	  <nav class="nav-links">
+	    <ul>
+	      
+	      <li><a href="articles/articles.html">Articles</a></li>
+	      <li><a href="contact.html">Contact</a></li>
+	      <li><a href="avis.html">Avis</a></li>
+	    </ul>
+	  </nav>
+
+	</header>
+	<main>
+			<h2>Contact</h2>
+        <form action="#" method="post">
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom"><br>
+
+          <label for="prenom">Prénom :</label>
+	      <input type="text" name="prenom" id="prenom" required>
+
+	      <label for="email">Email :</label>
+	      <input type="email" name="email" id="email" required>
+
+	      <label for="adresse">Adresse :</label>
+	      <input type="text" name="adresse" id="adresse" required>
+
+	      <label for="sexe">Sexe :</label>
+	      <select name="sexe" id="sexe" required>
+	        <option value="">-- Sélectionner --</option>
+	        <option value="homme">Homme</option>
+	        <option value="femme">Femme</option>
+	      </select>
+
+	      <label for="message">Message :</label>
+	      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+	      <button type="submit">Envoyer</button>
+	    </form>
+	</main>
+	<footer><p>Powered By <a href="https://github.com/KhaledKammoun" target="_blank">Khaled Kammoun</a> 2023 &copy; | All rights Reserved<br>
+      My Github account <a href="https://github.com/KhaledKammoun" target="_blank">here</a></p></footer>
+</body>
+</html>
