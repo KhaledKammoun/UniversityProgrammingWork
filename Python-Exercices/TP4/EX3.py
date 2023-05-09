@@ -18,6 +18,6 @@ try :
     with open('input.txt', 'r') as file:
         for line in file:
             x = list(map(int,line.split(",")))
-            f(**{'a':x[0],'b':x[1],'c':x[2]}) #print(f(**{'a':x[0],'b':x[1],'c':x[2]}))
+            f(**{'a':x[0],'b':x[1],'c':x[2]}) # print(f(**{'a':x[0],'b':x[1],'c':x[2]}))
 except FileNotFoundError:
     print('File not found')
