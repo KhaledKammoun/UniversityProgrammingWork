@@ -1,5 +1,4 @@
 def comp(ens1,ens2) :
-    print(locals())
     if (len(ens1)!=len(ens2)) :
         raise Exception("Les deux ensembles n'ont pas la même longueur .")
     if (len([True for x in ens1 | ens2 if (len(x)!=2)])>0) :
@@ -10,7 +9,6 @@ def comp(ens1,ens2) :
         else :
             return 0
         
-
 ens1 = {'AB', 'DA', 'KE'}
 ens2 = {'EK', 'BA', 'AD'}
 try:
