@@ -7,7 +7,8 @@ int main(){
     
     do{
         printf("donner ch : ") ;
-        gets(ch) ;
+        fgets(ch, sizeof(ch), stdin);
+        ch[strlen(ch)-1] = '\0';
     }while (strcmp(ch+strlen(ch)-2,"er")!=0) ;
     printf("Verbe : %s\n",ch);
     char *c=ch ;
