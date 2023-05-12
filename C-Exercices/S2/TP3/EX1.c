@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-int lex(char ch[], char ch1[]){
+int lex(char ch[100], char ch1[100]){
     for (int i = 0 ; ch[i]!='\0' && ch1[i]!='\0' ; i++){
         if (ch[i]>ch1[i])
             return 1 ;
@@ -17,9 +17,9 @@ int lex(char ch[], char ch1[]){
 int main(){
     char ch[100],ch1[100] ;
     printf("donner ch : ") ;
-    scanf("%s",&ch) ;
+    scanf("%s",ch) ;
     printf("donner ch1 : ") ;
-    scanf("%s",&ch1) ;
+    scanf("%s",ch1) ;
     int b = lex(ch,ch1) ;
     if(b==1)
         printf("%s precede %s",ch1,ch) ;
