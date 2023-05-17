@@ -1,4 +1,4 @@
-def pair(*arg) :
-    if not arg :
+def pair(*args) :
+    if not args :
         return None
-    return [c for c in arg if c%2==0]
+    return [c for c in args if c%2==0]
