@@ -6,10 +6,13 @@ if (len(A_Copy)==0) : # A.intersection(B) {a}
     print("A et B sont disjoints") #ensemble vide
 else :
     print("A et B n'est pas disjoints")
+ensemble=set(i+j for i in ch for j in ch1 if i!=j)
+"""
 ensemble=set()
 alpha=['d','e','f','a']
 for i in range(1,12):
     ensemble.update([str(chr(97 if i < 4 else 97+i//4)+alpha[(i-1)%4])])
+"""
 print(ensemble)
 #question 4
 b = False
