@@ -1,4 +1,4 @@
 def pair(*arg) :
-    if (len(arg)==0) :
+    if not arg :
         return None
     return [c for c in arg if c%2==0]
