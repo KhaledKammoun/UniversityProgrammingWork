@@ -5,6 +5,7 @@ int recherche(char ch1[100] , char ch2[100]){
         if (strncmp(ch1,ch2+i,strlen(ch1))==0)
             return i ;
     }
+    
     return -1 ;
 }
 int main(){
