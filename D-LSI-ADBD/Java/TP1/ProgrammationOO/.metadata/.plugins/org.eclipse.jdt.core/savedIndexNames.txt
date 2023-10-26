@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\khale\OneDrive\Bureau\ISIMS\Java\TP\ProgrammationOO\.metadata\.plugins\org.eclipse.jdt.core
+3413270776.index
+1865797976.index
+2489716004.index
