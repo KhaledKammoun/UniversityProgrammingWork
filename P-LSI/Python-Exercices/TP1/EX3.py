@@ -16,5 +16,5 @@ for i in range(n,0,-1) :
 print()
 for i in range(n) :
     for j in range(i+1) :
-        print(chr(97+j%3),end='') # les caractères seront tous imprimés sur la même ligne.
+        print(chr(97+j%3),end='') # les caractères seront tous imprimés sur la même ligne .
     print() #retour à la ligne
