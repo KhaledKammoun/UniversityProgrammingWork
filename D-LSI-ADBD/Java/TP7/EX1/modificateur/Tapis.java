@@ -1,7 +1,7 @@
 package modificateur;
 
 public class Tapis {
-	float longueur ;
+	float longueur ; //private
 	public float largeur ;
 	protected float prixMetreCarre ;
 	
