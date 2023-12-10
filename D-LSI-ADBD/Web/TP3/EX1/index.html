@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>TP3-EX1</title>
+	<script src="scripts.js"></script>
+</head>
+<body>
+<table border="1" align="center">
+<caption><b>change les propriétes de l'image</b></caption>
+<tr>
+<td>
+<form name="fo">
+	<input type="checkbox" id="widthCheckBox" >
+	Largeur: <input type="text" id="width" >
+	<br>
+	<input type="checkbox" id="heightCheckBox" >
+	Hauteur: <input type="text" id="height" > 
+	<br>
+	Source: <select id="selectVoiture">
+	<option value="voiture_verte.png">voiture verte</option>
+	<option value="voiture_blue.jpg">voiture blue</option>
+	<option value="voiture_rouge.jpg">voiture rouge</option>
+	<option value="voiture_verte.png">voiture blanc</option>
+	</select>
+	<br>
+	<input id = "button" type="button" value = "Modifier" onclick="f()"/>
+</form>
+</td>
+<td>
+<img id="image" name="image" src="voiture_verte.png" alt="Voiture Verte" width="200">
+</td>
+</tr>
+</table>
+</body>
+</html>
