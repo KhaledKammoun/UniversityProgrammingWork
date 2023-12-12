@@ -1,8 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.stats as stats
-x = np.linspace(-10,10,1000)
-mu = 0; sigma = 1
-f = stats.norm.pdf(x,mu,sigma)
-plt.plot(x,f)
-# la loi de uniforme on rvs, pour tous les exercice
+lambd = 1
+k = 1000
+X = np.random.exponential(1/lambd, size=k)
+plt.hist(X,bins=200)
+plt.show()
+
+## OR
+f1 = stats.expon(1/lambd)
+X1 = f1.rvs(size = k)
+plt.hist(X1, bins=200)
+plt.show()
