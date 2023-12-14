@@ -16,13 +16,13 @@ public class Usage2Tapis {
 		// La méthode calculerSurfaceTapis est déclarée avec un accès package-private
         // dans la classe 'Tapis'. Cela signifie qu'elle est uniquement accessible à
         // d'autres classes du même package .
-		float surfaceTapis_t2 = t2.calculerSurfaceTapis() ;
+		// float surfaceTapis_t2 = t2.calculerSurfaceTapis() ;
 		
 		// La méthode calculerPrixTapis est déclarée avec un accès protected dans la classe Tapis.
         // Bien que cela autorise son accès aux sous-classes de 'Tapis', 'Usage2Tapis' n'est pas
         // une sous-classe de 'Tapis' .
-		float prixTapis_t2 = t2.calculerPrixTapis(surfaceTapis_t2) ;
-		System.out.println("Prix de t1 : " + prixTapis_t2) ;
+		// float prixTapis_t2 = t2.calculerPrixTapis(surfaceTapis_t2) ;
+		// System.out.println("Prix de t1 : " + prixTapis_t2) ;
 	}
 
 }
