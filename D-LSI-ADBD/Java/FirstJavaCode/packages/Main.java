@@ -16,6 +16,7 @@ public class Main {
         Scanner reader = new Scanner(System.in);
         a = reader.nextInt();
         b = reader.nextInt();
+        reader.close() ;
         // calculation
         System.out.println("a + b = " + (a + b));
         System.out.println("a - b = " + (a - b));
@@ -24,6 +25,7 @@ public class Main {
         System.out.println("a / b = " + divisionFloat);
         System.out.println("a // b = " + divisionInt);
         System.out.println("a % b = " + (a % b));
+        
     }
     public static void compare(){
         System.out.print("Donner 3 entiers a, b et c : ") ;
@@ -31,7 +33,7 @@ public class Main {
         int a = reader.nextInt();
         int b = reader.nextInt();
         int c = reader.nextInt() ;
-        
+        reader.close() ;
         int max = Math.max(a, Math.max(b, c));
         int min = Math.min(a, Math.min(b, c));
         int moyenne = 0;
