@@ -1,0 +1,34 @@
+ACTIVITE-1 :
+
+b -
+etape 1 : Router > enable
+etape 2 : Router # configure terminal
+etape 3 : Router(config) # hostname Isims
+etape 4 : Isims(config)#interface serial 2/0
+	  Isims(config-if)#ip address 10.2.3.4 255.0.0.0
+etape 6 : Isims(config-if)#no shutdown
+etape 7 : Isims(config-if)#exit
+	  Isims(config)#interface fastethernet 0/0
+          Isims(config-if)#ip address 192.168.1.1 255.255.255.0
+etape 8 : Isims(config-if)#no shutdown
+etape 9 : Isims(config-if)#exit
+	  Isims(config)#ip route 192.168.2.0 255.255.255.0 10.6.7.8
+
+ping 192.168.2.6
+
+ACTIVITE-2 :
+
+b - 
+etape 1 : Router > enable
+etape 2 : Router # configure terminal
+etape 3 : Router(config) # hostname Isims
+etape 4 : Isims(config)#router rip
+etape 5 : Isims(config-router)#network 10.0.0.0
+	  Isims(config-router)#network 192.168.1.0
+ping 192.168.2.5
+
+###### For saving the configuration ######
+
+--> Isgi# show running-config                  # for show
+--> Isgi# copy running-config startup-config   # for saving
+--> Isgi# reload
