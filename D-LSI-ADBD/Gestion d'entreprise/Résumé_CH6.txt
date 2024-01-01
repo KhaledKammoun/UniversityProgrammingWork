@@ -1,0 +1,20 @@
+I / - La notion de structure :
+La structure organisationnelle d'une entreprise est représentée à travers l'organigramme, une illustration graphique détaillant les différents services et leurs interconnexions. La définition de la structure implique la segmentation des tâches en rôles (production, finance, marketing, etc.), leur regroupement en départements ou divisions selon divers critères (fonctions, produits, régions, marchés), et la distribution du pouvoir au sein de cette structure. Les caractéristiques clés d'une structure incluent la spécialisation, qui détermine la division du travail selon diverses approches, et la formalisation, qui indique le degré d'explication des règles de fonctionnement de l'entreprise. La coordination des tâches, essentielle pour assurer le bon fonctionnement, se réalise à travers divers mécanismes, allant de la coordination hiérarchique à l'ajustement mutuel et à la standardisation sous différentes formes, tout en évitant une formalisation excessive susceptible de générer de la rigidité.
+
+II / - Les déterminants de la structure : 
+Les déterminants de la structure organisationnelle sont la taille de l'entreprise, la technologie, et l'environnement. La taille influence la complexité structurelle, nécessitant une formalisation accrue à mesure que l'entreprise grandit. La technologie, représentant le processus de transformation, impose des contraintes spécifiques sur la structure, orientant le choix entre une structure mécaniste et rigide pour des tâches répétitives, ou une structure organique et flexible pour des tâches variées. L'environnement, composé de divers acteurs et en constante évolution, joue un rôle crucial. La structure sert d'interface avec l'environnement, facilitant la collecte d'informations pour des décisions éclairées. La dynamique, la complexité et l'incertitude de l'environnement influent sur la spécialisation, la coordination, et la réactivité de l'entreprise. Une veille constante est nécessaire, englobant la surveillance des clients, fournisseurs, concurrents, consommateurs, associations, pouvoirs publics, et avancées technologiques. Ainsi, l'ajustement de la structure en fonction de ces déterminants permet à l'entreprise de mieux réagir à son environnement changeant.
+
+III / - Les différents types de structures : 
+
+La structure organisationnelle peut adopter différentes formes, chacune présentant des avantages et des inconvénients.
+
+Structure Hiérarchique : Fondée sur l'autorité et la hiérarchie, cette structure offre une clarté des responsabilités mais peut devenir rigide avec des difficultés de communication entre niveaux.
+Structure Fonctionnelle : Axée sur la spécialisation, elle favorise une compétence accrue et une économie d'échelle, mais peut entraîner une dilution des responsabilités et des retards décisionnels.
+Structure "Staff and Line" : Avec une double ligne d'autorité, elle permet une meilleure gestion des problèmes complexes, mais peut conduire à des conflits entre fonctionnels et opérationnels.
+Structure Divisionnelle : Basée sur des divisions liées à des marchés ou produits, elle offre flexibilité et responsabilisation, mais peut entraîner des conflits de priorités et une dispersion des ressources.
+Structure Matricielle : Complexité, adaptabilité et utilisation optimale des compétences, mais peut souffrir d'une absence d'unité de commandement et d'ambiguïté des rôles.
+Structure par Projets : Adaptée à des activités non répétitives, elle permet la mobilisation efficace des ressources pour chaque projet, mais peut être coûteuse en personnel et complexe à équilibrer.
+Structure en Réseau : Organise l'écosystème de l'entreprise avec une coordination souple, mais peut poser des problèmes de repère et d'appartenance sans frontière stable.
+
+Chaque structure s'adapte à des besoins spécifiques, et le choix dépend des objectifs, de la taille, de la technologie, et de l'environnement de l'entreprise.
+

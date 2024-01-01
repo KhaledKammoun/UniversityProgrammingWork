@@ -1,0 +1,27 @@
+I / - L'école classique : 
+L'école classique de gestion, incarnée par Taylor, Fayol et Weber, émerge de la révolution industrielle. Taylor propose l'Organisation Scientifique du Travail (OST), basée sur la décomposition des tâches, la sélection scientifique, et la coopération étroite entre direction et ouvriers.
+Fayol introduit le Fayolisme, on dégagé six fonctions essentielles : technique, commerciale, financière, sécurité, comptabilité et administration.
+et cette fonction devient efficace si on applique ces 4 principes, Citons, la division du travail, l'autorité, la discipline, et l'unité de direction.
+ Weber développe le modèle bureaucratique et distingue trois modèles d'autorité, traditionnel (usages et traditions), charismatique (qualités personnelles des dirigeants), et légale-rationalisée (bureaucratique, légitimée par des critères objectifs et des règles écrites).
+Cependant, ces approches sont critiquées pour leur vision mécaniste, la négligence des besoins humains, le risque de lourdeur bureaucratique dans le cas de l'OST, et la considération de l'homme comme un simple instrument de production limité à la motivation salariale.
+
+II / - L’école des relations humaines :
+L'école des relations humaines, ajoutée à la gestion, met l'accent sur les interactions humaines au travail. Elton Mayo a souligné l'impact de l'état émotionnel et de l'adaptation au travail en groupe sur la productivité. D'autres penseurs comme Rensis Likert et A. H. Maslow ont mis en avant l'importance des relations humaines et la satisfaction des besoins individuels. Maslow a élaboré une théorie des besoins hiérarchisés, allant des besoins physiologiques, Besoins de sécurité, Besoins d’appartenance, Besoins d’estime et besoins d'accomplissement. Ces approches mettent en lumière l'importance des relations humaines pour améliorer les performances organisationnelles.
+
+III / - L’école néoclassique de management :
+L'école néoclassique de management, incarnée par des penseurs tels que Douglas Mac Gregor, qui propose deux théories fondamentales sur la nature humaine au travail, Théorie X, L'homme est considéré comme naturellement paresseux, En revanche, la Théorie Y affirme que l'individu peut s'auto-diriger, se contrôler et contribuer positivement lorsqu'il se sent responsable envers les objectifs de l'organisation.
+Parallèlement, Frederick Herzberg a identifié deux types de facteurs au travail : les facteurs d'hygiène, nécessaires mais non suffisants pour une bonne santé organisationnelle, et les facteurs de motivation, qui stimulent positivement les comportements. Il a introduit le concept d'enrichissement des tâches, accordant plus d'autonomie et de responsabilité aux employés.
+
+Les idées développées par les auteurs de ce courant de pensé (Alfred P. Sloan, Peter F. Drucker, Octave Gélinier et Shigéo Shingo) .
+Alfred P.Sloan préconise que confier des pouvoirs aux divisions autonomes favorise l'initiative, la responsabilité, et la flexibilité.
+Peter F. Drucker recommande aux responsables de fixer des objectifs plutôt que des tâches, stimulant ainsi une approche axée sur les résultats.
+Octave Gélinier met en avant l'importance de la participation des individus dans la définition de leurs propres objectifs.
+Shigéo Shingo propose des innovations de production telles que la réduction des temps de préparation, l'autocontrôle par les opérateurs, et la méthode Kanban.
+Ces idées convergent vers une approche qui valorise l'autonomie, la responsabilité, et une gestion plus participative au sein des organisations.
+
+IV / - Les approches « contingentes » des organisations : 
+La contingence, dans le contexte des organisations, fait référence à la nature éventuelle des événements et à la possibilité qu'ils se produisent ou non.
+En théorie des organisations, cela implique la prise en compte de facteurs imprévisibles et indépendants du contrôle du manager. La théorie de la contingence souligne que les écoles classique et des relations humaines ont négligé la relation de l'entreprise avec son environnement, se concentrant principalement sur les aspects internes. Avec la complexité croissante de l'environnement, il devient essentiel de considérer l'entreprise comme un système ouvert, capable de s'adapter et parfois d'influencer son environnement.
+
+V / - L’école moderne : 
+L'école moderne de gestion se divise principalement en deux approches : l'approche systémique et l'approche situationnelle. L'approche systémique préconise une vision globale en examinant l'objet dans son environnement, mettant l'accent sur les relations et interactions entre ses éléments constitutifs. L'approche situationnelle accorde une importance particulière à la situation, cherchant à démontrer les interconnexions entre les différentes parties de l'organisation. Cela incite les gestionnaires à accorder une attention accrue à la situation et aux facteurs qui l'influencent.
