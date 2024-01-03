@@ -7,7 +7,7 @@ I / - Les différents types de planification :
 La planification est un processus essentiel permettant de définir les objectifs et les étapes nécessaires pour les atteindre. 
 Trois types de planification sont distingués : 
 la planification stratégique, s'étalant sur plus de cinq ans, axée sur l'analyse de l'environnement et la détermination de la mission, des objectifs généraux, des politiques et des stratégies ;
-la planification à moyen terme, couvrant une période maximale de cinq ans, élaborée par les chefs de départements ; 
+la planification à moyen terme, couvrant une période maximale de cinq ans, élaborée par les chefs de départements ;  
 Enfin, la planification à court terme, d'une durée maximale d'un an, engage les cadres inférieurs dans la définition des tâches, programmes et activités propres à leurs unités. L'exécution et le contrôle des réalisations sont des aspects cruciaux de ce processus.
 
 II / - Le processus de planification :
