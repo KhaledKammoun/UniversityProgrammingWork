@@ -11,3 +11,6 @@ plt.title("Distribution uniforme - PDF | CDF")
 plt.xlabel("x")
 plt.ylabel("Fonction de Densité | Répartition")
 plt.show()
+
+
+
