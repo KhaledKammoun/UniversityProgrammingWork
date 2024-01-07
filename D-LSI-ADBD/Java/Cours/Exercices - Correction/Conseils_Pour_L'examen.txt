@@ -1,0 +1,17 @@
+**Conseils pour répondre aux question en examen**
+
+répondre aux questions concernant une classe X ne signifie pas qu'à chaque question vous déclarez la classe, par exemple:
+1) écrire la classe Entreprise ayant les attributs nom et adresse
+2) écrire un constructeur de Entreprise
+3) écrire la méthode toString pour afficher les caractéristiques d'un objet Entrepprise
+Réponses
+1) class Entreprise{
+String nom, adresse;
+2) Entreprise(String nom, String entreprise){
+this.nom=nom;
+this.entreprise=entreprise;
+}
+3) public String toString() {
+return nom+" "+entreprise;
+}
+}//fin de classe, non obligatoire dans l'examen
