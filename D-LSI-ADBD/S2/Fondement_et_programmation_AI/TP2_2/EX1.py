@@ -52,3 +52,17 @@ print("------Question 12------")
 
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
 iris_1d = np.genfromtxt(url, delimiter=',', dtype=None)
+species = np.array([row[4] for row in iris_1d])
+print(species[:4])
+
+print("------Question 13------")
+url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
+iris = np.genfromtxt(url, delimiter=',', dtype='object')
+sepallength = np.genfromtxt(url, delimiter=',', dtype='float', usecols=[0])
+moyenne = np.mean(sepallength)
+median = np.median(sepallength)
+ecart = np.std(sepallength)
+print("Moyenne : ", moyenne)
+print("Median : ", median)
+print("Ecart-type : ", ecart)
+
