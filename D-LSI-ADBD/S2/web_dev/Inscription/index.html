@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Inscription</title>
+</head>
+<body>
+    <form>
+        <table>
+            <caption>Inscriptions</caption>
+            <tr>
+                <th>Prénom :</th>
+                <td>
+                    <input placeholder="Prénom"/>
+                </td>
+            </tr>
+            
+            <tr>
+                <th>Mot de passe :</th>
+                <td>
+                    <input type="password" placeholder="password"/> 
+                </td>
+            </tr>
+            
+            <tr>
+                <th>Association</th>
+                <td>
+                    <select>
+                        <option>Association X</option>
+                        <option>Association Y</option>
+                        <option>Association Z</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Disponibilités pour la semaine du 22 juin :</th>
+                <td>
+                    <label><input type="checkbox" name="jour_1">Lundi</label>
+                    <label><input type="checkbox" name="jour_2">Mardi</label>
+                    <label><input type="checkbox" name="jour_3">Mercredi</label>
+                    <label><input type="checkbox" name="jour_4">Jeudi</label>
+                    <label><input type="checkbox" name="jour_5">Vendredi</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Contribution :</th>
+                <td>
+                    <label><input type="radio" name="radio_input">Entrée</label>
+                    <label><input type="radio" name="radio_input">Plat</label>
+                    <label><input type="radio" name="radio_input">Dessert</label>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Commentaires :</th>
+                <td>
+                    <textarea></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <button type="submit">S'inscrire !</button>
+                    <button type="reset">Annuler</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    display: flex;
+
+    justify-content: center;
+}
+table {
+    background-color: white;
+    color: rgb(41, 41, 41);
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1%;
+}
+
+form {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgb(41, 41, 41);
+    width: 60%;
+}
+
+table th, table td {
+    text-align: left;
+    width: 50%;
+}
+
+table caption {
+    padding: 1%;
+    background-color:rgb(41, 41, 41);
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
