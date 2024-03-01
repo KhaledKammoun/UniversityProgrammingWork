@@ -7,30 +7,30 @@
     <title>Inscription</title>
 </head>
 <body>
-    <form>
+    <form action="script.php" method="post">
         <table>
             <caption>Inscriptions</caption>
             <tr>
                 <th>Prénom :</th>
                 <td>
-                    <input placeholder="Prénom"/>
+                    <input placeholder="Prénom" name="prenom"/>
                 </td>
             </tr>
             
             <tr>
                 <th>Mot de passe :</th>
                 <td> 
-                    <input type="password" placeholder="password"/> 
+                    <input type="password" placeholder="password" name="password"/> 
                 </td>
             </tr>
             
             <tr>
                 <th>Association</th>
                 <td>
-                    <select>
-                        <option>Association X</option>
-                        <option>Association Y</option>
-                        <option>Association Z</option>
+                    <select name="association">
+                        <option value="Association X">Association X</option>
+                        <option value="Association Y">Association Y</option>
+                        <option value="Association Z">Association Z</option>
                     </select>
                 </td>
             </tr>
@@ -38,27 +38,27 @@
             <tr>
                 <th>Disponibilités pour la semaine du 22 juin :</th>
                 <td>
-                    <label><input type="checkbox" name="jour_1">Lundi</label>
-                    <label><input type="checkbox" name="jour_2">Mardi</label>
-                    <label><input type="checkbox" name="jour_3">Mercredi</label>
-                    <label><input type="checkbox" name="jour_4">Jeudi</label>
-                    <label><input type="checkbox" name="jour_5">Vendredi</label>
+                    <label><input type="checkbox" name ="jour_1" value="lundi" >Lundi</label>
+                    <label><input type="checkbox" name ="jour_2" value="mardi">Mardi</label>
+                    <label><input type="checkbox" name ="jour_3" value="mercredi">Mercredi</label>
+                    <label><input type="checkbox" name ="jour_4" value="jeudi">Jeudi</label>
+                    <label><input type="checkbox" name ="jour_5" value="vendredi">Vendredi</label>
                 </td>
             </tr>
 
             <tr>
                 <th>Contribution :</th>
                 <td>
-                    <label><input type="radio" name="radio_input">Entrée</label>
-                    <label><input type="radio" name="radio_input">Plat</label>
-                    <label><input type="radio" name="radio_input">Dessert</label>
+                    <label><input type="radio" name="radio_input" value="entree">Entrée</label>
+                    <label><input type="radio" name="radio_input" value="plat">Plat</label>
+                    <label><input type="radio" name="radio_input" value="dessert">Dessert</label>
                 </td>
             </tr>
 
             <tr>
                 <th>Commentaires :</th>
                 <td>
-                    <textarea></textarea>
+                    <textarea name="commentaire"></textarea>
                 </td>
             </tr>
             <tr>

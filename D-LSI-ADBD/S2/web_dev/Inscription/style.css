@@ -12,7 +12,7 @@ table {
     padding: 1%;
 }
 
-form {
+form{
     background-color: aqua;
     display: flex;
     flex-direction: row;
