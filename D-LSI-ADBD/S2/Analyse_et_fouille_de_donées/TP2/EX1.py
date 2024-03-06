@@ -22,6 +22,38 @@ else:
 
 # question 5
 df = df.fillna(0)
-
+print("\nQuestion 5 : ")
 print(df)
 
+# question 6 :
+max_salaire = df['Salaire'].max()
+df['Salaire'] = df['Salaire'].apply(lambda x: max_salaire if x == 0 else x)
+print("\nQuestion 6 : ")
+print(df)
+
+#question 7 :
+dict_poste = {"manger" :0, "Ingenieur" :1, "Developpeur" : 2}
+df['poste'] = df['poste'].apply(lambda x :  dict_poste[x])
+print(df)
+print("Qursdflksdfjslfg : ")
+dict_Date_emb = {key for key in df['Date_emb'].unique()}
+print(dict_Date_emb)
+
+#question 8 :
+numerical_columns = df.select_dtypes(include=['int64', 'float64'])
+
+# centrées
+centered_data = numerical_columns - numerical_columns.mean()
+
+numerical_columns = df.select_dtypes(['float', 'int'])
+centered_data = numerical_columns - numerical_columns.mean()
+
+print(numerical_columns)
+# centrées et réduites.
+scaled_data = centered_data / numerical_columns.std()
+
+print("Y matrix (Centered data):")
+print(centered_data)
+
+print("\nZ matrix (Centered and scaled data):")
+print(scaled_data)
