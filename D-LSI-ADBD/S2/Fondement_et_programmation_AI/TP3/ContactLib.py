@@ -7,7 +7,6 @@ class Personne:
         self.telephone = telephone
         self.email = email
         self.__address = address
-
     def region(self):
         if self.__address is not None:
             parts = self.__address.split(",")
@@ -21,7 +20,8 @@ class Personne:
             return "région inconnue"
 
     def __str__(self):
-        return self.region()
+        personne_info = "Nom : {}\nPrénom : {}".format(self.nom, self.prenom)
+        return self.region() + "\n" + personne_info
 
 # Partie 2
 liste_personne = []
@@ -39,12 +39,19 @@ def lire_personne() :
     adresse = " ,".join([num_adresse, nom_rue_adresse, code_postal_adresse, région_adresse])
     print(f"Personne {nom} {prenom} est Ajouté !!")
     print("-------------------------------")
-    return Personne(nom, prenom,telephone, email, adresse)
+    return Personne(nom, prenom, adresse, telephone, email)
 def print_personne(liste_personne) :
-    if liste_personne :
-        for personne in liste_personne :
-            print("----Person-----")
-            print(personne.__str__())
+    commande = input(":: all : afficher tous les personnes | String : nom du personne\n    Type Commande : ")
+    if liste_personne and commande :
+        if (commande.lower() == "all") :
+            for personne in liste_personne :
+                print("----Person-----")
+                print(personne.__str__())
+        elif (commande.lower()) :
+            for personne in liste_personne :
+                if personne.nom.lower() == commande.lower() :
+                    print("----Person-----")
+                    print(personne.__str__())
     else :
         print("\n   Liste Personne est Vide !!!\n")   
     print("-------------------------------")
