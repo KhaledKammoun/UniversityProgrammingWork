@@ -10,3 +10,4 @@ class Etudiant :
 if __name__ == "__main__" :
     etudiant1 = Etudiant("etudient1", 10, 15)
     etudiant1.afficher()
+
