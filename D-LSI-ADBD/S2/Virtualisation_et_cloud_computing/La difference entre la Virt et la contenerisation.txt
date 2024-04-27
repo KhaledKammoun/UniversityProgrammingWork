@@ -1,0 +1,1 @@
+la virtualisation crée des environnements isolés avec des systèmes d'exploitation complets, tandis que la conteneurisation isole des applications individuelles en partageant efficacement les ressources système de la machine hôte.
