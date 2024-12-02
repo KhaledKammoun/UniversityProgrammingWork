@@ -34,6 +34,7 @@ for key in matrice_var.keys():
         somme_carree
     ]))
 
+
 # Convertir en tableau numpy pour un affichage propre
 
 
