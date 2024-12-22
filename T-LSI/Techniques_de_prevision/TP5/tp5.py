@@ -50,6 +50,7 @@ x_mean = np.mean(t)
 y_mean = np.mean(ca)
 
 a = (np.sum(t * ca) - len(t) * x_mean * y_mean) / (np.sum(t**2) - len(t) * x_mean**2)
+
 b = y_mean - a * x_mean
 
 print(f"Pente (a) : {a}")
@@ -77,3 +78,5 @@ plt.show()
 t_pred_2 = 8
 ca_pred_2 = a * t_pred_2 + b
 print(f"Prévision pour t = 8 : {ca_pred_2:.2f}")
+
+
